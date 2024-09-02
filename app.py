@@ -64,13 +64,13 @@ def submit():
 
 
 
-st.title("🍃 GreenEden AI Assistant [α] 🍃")
-url = "https://carbonbalance.co"
-st.write("By Carbon Balance Pte. Ltd.(%s)" % url)
+st.title("🍃 Quran Assistant [α] 🍃")
+url = "https://homam.digital"
+st.write("By Homam Alghorani(%s)" % url)
 # st.markdown("By Carbon Balance Pte. Ltd.(%s)" % url)
 # st.text("By Carbon Balance Pte. Ltd.")
 
-st.text_input("Ask me:", key='query', on_change=submit)
+st.text_input("Ask the Quran:", key='query', on_change=submit)
 
 user_input = st.session_state.user_input
 
@@ -82,20 +82,9 @@ if user_input:
     st.text_area(result)
 st.text(" ")
 st.title("Trained on:")
-st.text("- CBAM regulation in the Official Journal of the EU")
-st.text("- CBAM Implementing Regulation for the transitional phase and Annexes to the CBAM Implementing Regulation for the transitional phase")
-st.text("- Guidance document on CBAM implementation for importers of goods into the EU")
-st.text("- Guidance document on CBAM implementation for installation operators outside the EU")
+st.text("- QURAN ENGLISH TRANSLATION Clear, Pure, Easy to Read Modern English Translated from Arabic by Talal Itani Published by ClearQuran Dallas, Beirut")
+st.text("- Translation of the Meaning of the Qur’an Translated by Saheeh International, King Fahd National Library Cataloging-in-Publication Data")
+st.text("- Interpretation of the meaning of the Qur'an in the English Language by Dr. Muhammad Taqi-ud-Din Al-Hilali and Dr. Muhammad Muhsin Khan")
+st.text("- أسباب النزول عبدالرحمن بن امجد حسين")
 
-st.text("- CBAM - Questions and Answers")
-st.text("- CBAM and developing countries/LDCs")
-st.text("- Checklist for EU importers")
-st.text("- Information for importers of cement")
-st.text("- Information for importers of aluminium")
-st.text("- Information for importers of fertilisers")
-st.text("- Information for importers of iron & steel")
-st.text("- Information for importers of hydrogen")
-st.text("- Information for importers of electricity")
-
-
-
+st.text("- Reasons and occasions of revelation of the holy Quran, Lubab An-Nuqul Fi Asbab An-Nuzul, by Jalal Al-Din AL-Suyuty")
